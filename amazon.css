@@ -1,0 +1,958 @@
+body{
+   background-color:  rgb(215, 221, 230);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+   
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    
+}
+.navbar{
+    height: 60px;
+    width: 100%;
+    background-color: #0f1111;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    
+   
+
+}
+
+.nav-logo{
+    height: 50px;
+    width: 130px;
+
+   
+}
+.logo{
+    height: 41px;
+    width: 100%;
+    background-image: url(Amazon-India-Logo-PNG-White.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+   
+   
+}
+.border{
+    border: 1.5px solid transparent;
+   
+}
+
+.border:hover{
+    border: 1.5px solid white;
+  
+}
+
+
+.del{color: #cccccc;
+    font-size: 0.7rem;
+    margin-left: 15px;
+
+}
+.ind{
+    color: white;
+    font-size: 12px;
+
+}
+.add-icon{
+    display: flex;
+   
+   
+    align-items: center;
+    height: 30px;
+   
+}
+.location{
+    
+    width: 88.63px;
+    height: 50px;
+
+    margin-left: 4px;
+    padding-top: 6px;
+}
+
+.nav-search{
+    display: flex;
+    width: 620px;
+    height: 40px;
+    margin-left: 4px;
+    border-radius: 5px;
+    justify-content: space-evenly;
+}
+.nav-search:hover{
+    border: 1.5px solid orange;
+}
+.allm{
+    background-color: #f3f3f3;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    width: 50px;
+    text-align: center;
+    border: none;
+
+}
+.b{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+
+}
+.search-icons{
+    width: 45px;
+    height: 40px;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    background-color: orange;
+    padding-top: 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #0f1111;
+}
+.index{
+    height: 50px;
+    width: 73.38px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    background-color: #0f1111;
+   
+}
+.en{
+    background-color: #0f1111;
+    color: white;
+}
+.hello{
+    height: 50px;
+    width: 131.53px;
+   
+}
+.accounts{
+    font-size: 14px;
+    font-weight: 700px;
+}
+.signin{
+    font-size: 12px;
+    padding-top: 15px;
+    
+}
+.returns{
+    height: 50px;
+    width: 76.95px;
+
+
+}
+
+.ret{
+    font-size: 12px;
+    padding-top: 15px;
+}
+.orders{
+    font-size: 14px;
+}
+.cart{
+    height: 50px;
+    width: 84px;
+    padding-top: 15px;
+    display: flex;
+    padding-left: 8px;
+}
+  
+ 
+/* panel start */
+.panel{
+    display: flex;
+    height: 39px;
+    background-color: #222f3d;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+ 
+}
+.all{
+    background-color: #222f3d;
+  
+    width: 58.42px;
+    padding-top: 7px;
+    padding-bottom:7px ;
+    
+}
+.red:hover{
+    color: red;
+}
+.red-underline:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+.fresh{
+   
+    width:64.91px; 
+    padding-top: 7px;
+    padding-bottom:7px ;
+}
+.miniTV{
+   
+    width:118.64px; 
+    padding-top: 7px;
+    padding-bottom:7px ;
+}
+.Sell{
+   
+    width: 41.38px;
+    padding-top: 7px;
+    padding-bottom:7px ;
+}
+.Best{
+
+    width: 91.11px;
+    padding-top: 7px;
+    padding-bottom:7px ;
+}
+.Mobiles{
+   
+    width: 67.19px;
+    padding-top: 7px;
+    padding-bottom:7px ;
+}
+
+.Deals{
+    width:102.89px; 
+    padding-top: 7px;
+    padding-bottom:7px ;
+
+}
+.Prime{
+   
+    width: 68.11px;
+    padding-top: 7px;
+    padding-bottom:7px ;
+
+}
+.customer{
+    
+    width: 128.34px;
+    padding-top: 7px;
+    padding-bottom:7px ;
+
+}
+.Fashion{
+   
+    width: 66.58px;
+    padding-top: 7px;
+    padding-bottom:7px ;
+
+}
+.Electronics{
+   
+    width:86.72px ;
+    padding-top: 7px;
+    padding-bottom:7px ;
+
+}
+.empty{
+    display: inline-block;
+    width: 400px;
+    height: 39px;
+    padding-top: 7px;
+    padding-bottom:7px ;
+    background-image: url(PD24_SWM_Dates_V2._CB569503763_.jpg);
+    background-size: 110%;
+    padding-right: 10px;
+}
+.imagekitchen{
+    height: 400px;
+    background-image: url(PC_Hero_3000x1200_BS_PC._CB558386585_.jpg);
+    background-size: cover;
+}
+
+
+
+/* shopping things adds */
+
+.container{
+    background-image:  linear-gradient(to bottom,rgb(15, 11, 1),rgb(215, 221, 230));
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+
+}
+.box{
+    /* border: 2px solid black; */
+    width: 24%;
+    height: 420px;
+    background-color: white;
+}
+h2{
+    margin: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 20px;
+    
+}
+
+.image-content{
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.image-1{
+    height: 102.2px;
+    width: 45%;
+    background-image: url(186x116_Home_furnishings_2._SY116_CB555624324_.jpg);
+    background-size: contain;
+  
+}
+.content-1{
+    margin-top: 105px;
+    font-size: 11px;
+    
+    
+}
+
+
+.image-2{
+    height: 102.2px;
+    width: 45%;
+    background-image: url(186x116_Home_decor_1._SY116_CB555624324_.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.image-3{
+    height: 102.2px;
+    width: 45%;
+    background-image: url(186x116_Home_storage_1._SY116_CB555624324_.jpg);
+    background-size: cover;
+}
+
+
+.image-4{
+    height: 102.2px;
+    width: 45%;
+    background-image: url(186x116_Home_lighting_2._SY116_CB555624324_.jpg);
+    background-size: cover;
+}
+
+a{
+    text-decoration: none;
+    font-size: 14px;
+    margin-left: 15px;
+    color: rgb(22, 177, 216);
+    font-weight: 500;
+}
+.image-5{
+    height: 102.2px;
+    width: 45%;
+    background-image: url(PC_QuadCard_boAt_0.5x._SY116_CB553870684_.jpg);
+    background-size: 120%;
+    background-repeat: no-repeat;
+}
+.image-6{
+    height: 102.2px;
+    width: 45%;
+    background-image: url(PC_QuadCard_Boult_0.5x._SY116_CB553870684_.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.image-7{
+    height: 102.2px;
+    width: 45%;
+    background-image: url(PC_QuadCard_Noise_0.5x._SY116_CB553870684_.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.image-8{
+    height: 102.2px;
+    width: 45%;
+    background-image: url(PC_QuadCard_Zeb_0.5x_1._SY116_CB570220221_.jpg);
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+
+
+.image-9{
+    height: 102.2px;
+    width: 45%;
+    background-image: url(Appliances-QC-PC-186x116--B08RDL6H79._SY116_CB667322346_.jpg);
+    background-size:120% ;
+    background-repeat: no-repeat;
+   
+}
+.image-10{
+    height: 102.2px;
+    width: 45%;
+    background-image: url(Appliances-QC-PC-186x116--B08345R1ZW._SY116_CB667322346_.jpg);
+    background-size: 120%;
+    background-repeat: no-repeat;
+
+}
+.image-11{
+    height: 102.2px;
+    width: 45%;
+    background-image: url(Appliances-QC-PC-186x116--B07G5J5FYP._SY116_CB667322346_.jpg);
+    background-size: 120%;
+    background-repeat: no-repeat;
+}
+.image-12{
+    height: 102.2px;
+    width: 45%;
+    background-image: url(186x116---wm._SY116_CB667322346_.jpg);
+    background-size: 120%;
+    background-repeat: no-repeat;
+}
+.image-13{
+    height: 102.2px;
+    width: 45%;
+    background-image: url(Glasscare1X._SY116_CB410830553_.jpg);
+    background-size: cover;
+}
+.image-14{
+    height: 102.2px;
+    width: 45%;
+    background-image: url(Rim_tyrecare1x._SY116_CB410830552_.jpg);
+    background-size: cover;
+}
+
+.image-15{
+    height: 102.2px;
+    width: 45%;
+    background-image: url(Vega_helmet_186x116._SY116_CB405090404_.jpg);
+    background-size: 110%;
+}
+
+.image-16{
+    height: 102.2px;
+    width: 45%;
+    background-image: url(Vaccum1x._SY116_CB410830552_.jpg);
+    background-size: cover;
+}
+
+/* fashion-women */
+.women-container{
+    background-color: white;
+    height:285px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+.up{
+    
+    padding-top: 20px;
+}
+
+.fashion-women{
+    height:285px;
+    width: 100%;
+    padding: 10px,20px;
+    display: flex;
+    justify-content: space-around;
+
+
+
+}
+
+.women-1{
+    height: 200px;
+    width: 145px;
+    
+    
+
+}
+
+.w-img-1{
+    height: 200px;
+    width: 145px;
+    background-image: url(41GgMC60FeL.jpg);
+    background-size: cover;
+}
+.w-img-2{
+     background-image: url(81AxRnp+TES._SY741_.jpg);
+     background-size: cover;
+}
+.w-img-3{
+     background-image: url(515tBHiEFrL._SY741_.jpg);
+     background-size: cover;
+}
+.w-img-4{
+     background-image: url(41dZDfcFbfL._SX522_.jpg);
+     background-size: cover;
+}
+.w-img-5{
+     background-image: url(51k21a2+JUL._SY679_.jpg);
+     background-size: cover;
+}
+.w-img-6{
+     background-image: url(31+DE9c+WPL.jpg);
+     background-size: cover;
+}
+.w-img-7{
+     background-image: url(71R-0eQ+r0L._SY741_.jpg);
+     background-size: cover;
+}
+.w-img-8{
+     background-image: url(51A4pdz+u-L._SY741_.jpg);
+     background-size: cover;
+}
+
+.offers{
+    font-size: 16px;
+}
+.bike{
+    height: 200px;
+    width: 18%;
+}
+.w-img-9{
+    background-image: url(41fT4szJmKL._AC_SY200_.jpg);
+    background-size:114%;
+    background-repeat: no-repeat;
+}
+.w-img-10{
+    background-image: url(71DW3XBuc7L._AC_SY200_.jpg);
+    background-size: 98%;
+    background-repeat: no-repeat;
+   
+}
+.w-img-11{
+    background-image: url(71tDXQ0XxrL._AC_SY200_.jpg);
+    background-size: 80%;
+    background-repeat: no-repeat;
+   
+    
+    
+}
+.w-img-12{
+    background-image: url(71sitt8x2zL._AC_SY200_.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+.w-img-13{
+    background-image: url(41jbqiuJjDL._AC_SY200_.jpg);
+    background-size: 115%;
+    background-repeat: no-repeat;
+}
+
+
+.w-img-14{
+    background-image: url(81FmKf9ojeL._AC_SY200_.jpg);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    margin-left: 60px;
+   
+  
+   
+}
+
+.w-img-15{
+    background-image: url(61NSAg-iNxL._AC_SY200_.jpg);
+    background-size: 100%;
+    margin-right: 40px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-repeat: no-repeat;
+}
+.w-img-16{
+    background-image: url(51n8KFACn2L._AC_SY200_.jpg);
+    background-size: 110%;
+    background-repeat: no-repeat;
+    margin-top: 5px;
+   
+   
+}
+
+
+.w-img-17{
+    background-image: url(61TLhNnq7lL._AC_SY200_.jpg);
+    background-size: 90%;
+    margin-left: 20px;
+    margin-right: 0px;
+}
+.w-img-18{
+    background-image: url(71aSGUKdLOL._AC_SY200_.jpg);
+    background-size: cover;
+    margin-left: 20px;
+    margin-right: 20px;
+   
+    background-repeat: no-repeat;
+}
+   
+
+
+
+ /* 3rd row */
+
+.w-img-19{
+    background-image: url(51tPcCmiSTL._AC_SY200_.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    margin-left: 10px;
+    
+}
+.w-img-20{
+    background-image: url(71FKuQ0VEyL._AC_SY200_.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+.w-img-21{
+    background-image: url(71HOQ1JCRXL._AC_SY200_.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+.w-img-22{
+    background-image: url(51R4yXiIXwL._AC_SY200_.jpg);
+    background-size: 75%;
+    background-repeat: no-repeat;
+    margin-left: 40px;
+    margin-top: 10px;
+   
+}
+.w-img-23{
+    background-image: url(71oL0yub5HL._AC_SY200_.jpg);
+    background-size: 100%;
+    margin-left: 0px;
+    margin-right: 20px;
+   
+}
+
+.customer-viewd{
+    height: 700px;
+    background-color: white;
+    /* border: 2px solid black; */
+    color: #0f1111;
+    margin-top: 30px;
+    padding-top: 20px;
+   
+    
+    
+
+}
+.browsing{
+    font-size: 18px;
+    color: #0f1111;
+    padding-top: 30px;
+    font-weight: 600;
+
+}
+.customer-viewd-1{
+    height: 450px;
+    display: flex;
+    justify-content: space-around;
+ 
+   
+    border-bottom: 1px solid #222f3d;
+    padding-top: 20px;
+
+}
+
+.customer-viewd-2{
+    width: 180px;
+    display: flex;
+   flex-direction:column ;
+
+}
+.fin-img-1{
+    height: 150px;
+    width: 100%;
+    background-image: url(51n+OG3t0VL._AC_UL165_SR165,165_.jpg);
+    background-repeat: no-repeat;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+.fin-img-2{
+    height: 150px;
+    width: 100%;
+    background-image: url(61mxNGaeJdL._AC_UL165_SR165,165_.jpg);
+    background-repeat: no-repeat;
+    margin-bottom: 5px;
+}
+.fin-img-3{
+    height: 150px;
+    width: 100%;
+    background-image: url(61pbgUXIJeL._AC_UL165_SR165,165_.jpg);
+    background-repeat: no-repeat;
+    margin-bottom: 5px;
+}
+.fin-img-4{
+    height: 150px;
+    width: 100%;
+    background-image: url(510uT4s1-TL._AC_UL165_SR165,165_.jpg);
+    background-repeat: no-repeat;
+    margin-bottom: 5px;
+}
+.fin-img-5{
+    height: 150px;
+    width: 100%;
+    background-image: url(51SjvVuQM4L._AC_UL165_SR165,165_.jpg);
+    background-repeat: no-repeat;
+    margin-bottom: 5px;
+}
+.fin-img-6{
+    height: 150px;
+    width: 100%;
+    background-image: url(61Djq9WDPNL._AC_UL165_SR165,165_.jpg);
+    background-repeat: no-repeat;
+    margin-bottom: 5px;
+}
+.rupees{
+ font-size: 20px;
+ margin-top: 10px;
+ margin-left: 15px;
+}
+.FREE-Delivery{
+    font-size: 12px;
+    padding-top: 3px;
+    margin-left: 18px;
+}
+
+
+.sign-in{
+    height: 100px;
+    width: 600px;
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+   
+}
+.recommendations{
+    text-align: center;
+    font-size: 13px;
+    margin-top: 50px;
+  
+  
+
+}
+.button-signin{
+    width: 270px;
+    height: 28px;
+    color: black;
+    background-color: #f5b106;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    text-shadow:0 1px 0 #ffe093;
+    cursor: pointer;
+}
+.pqrs{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    
+}
+.New-customerss{
+
+    font-size: 11px;
+   text-align: center;
+ 
+}
+.amnl{
+    font-size: 11px;
+    margin: 0px;
+}
+.browsing{
+    margin-left: 10px;
+    font-size: 22px;
+}
+.someborder{
+    height: 10px;
+    width: 100%;
+    border-top: 1px solid  #37475a;
+    margin-top: 20px;
+}
+/* footer style */
+footer{
+
+   
+}
+
+.foot-panel1{
+    background-color: #37475a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 49px;
+    width: 100%;
+    padding: 15px,0px;
+    color: #ffffff;
+    font-size:13px ;
+}
+
+.foot-panel2{
+    background-color: #222f3d;
+    display: flex;
+    justify-content: space-around;
+    color: #ffffff;
+    padding-top: 45px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 60px;
+}
+.tom{
+    padding-left: 14px;
+
+}
+.anch-dec1{
+    color: #ffffff;
+}
+.anch-dec{
+    color: #dddddd;
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 14px;
+    
+    
+}
+.foot-panel3{
+    border-top: 2px solid  #37475a;
+    height: 120px;
+    width: 100%;
+    display: inline-block;
+    background-color:#222f3d ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.panel-8{
+    height: 90px;
+    /* border: 2px solid white;  */
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+   
+}
+.img-panel-log{
+    height: 30px;
+    width: 100px;
+    margin-left: 20px;
+    margin-right: 80px;
+    background-image: url(Amazon-India-Logo-PNG-White.png);
+    background-size: cover;
+
+}
+.eng-select{
+    display: flex;
+    color: #dddddd ;
+}
+.flag-india{
+    height:34px ;
+    width:90.7px ;
+    border: 2px solid  #37475a;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.xyz{
+    height: 34px;
+    width: 120px;
+    border: 2px solid  #37475a;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    
+
+}
+
+.lastpanel{
+    height: 300px;
+    width: 100%;
+    background-color:#0f1111 ;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.abc{
+    display: flex;
+    justify-content: space-around;
+    font-size: 12px;
+}
+
+
+.AbeBooks{
+    color:#dddddd;
+    padding-top: 20px;
+    padding-left: 15px;
+    
+}
+.jai{
+    color: #999999;
+    font-size: 12px;
+    
+}
+.def{
+    display: flex;
+    justify-content: space-around;
+    font-size: 12px;
+}
+
+.prime{
+    color:#dddddd;
+    padding-top: 20px;
+    margin-left: 30px;
+    margin-right: 20px;
+
+}
+.ho{
+    width: 300px;
+    height: 42px;
+    text-align: start;
+    display: inline-block;
+   
+    margin-top: 20px;
+    
+}
+
+.Affiliate{
+    height: 75.99px;
+    width: 36%;
+    color: #dddddd;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    text-align: center;
+    font-size: 12px;
+
+}
+.anch-dec:hover{
+    text-decoration: underline;
+}
+.ho:hover{
+    text-decoration: underline;
+}
+.size-increase{
+    font-size: 20px;
+    font-weight: 600;
+}
